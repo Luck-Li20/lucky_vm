@@ -9,6 +9,9 @@ function getFile(name) {
     }
 };
 framevm_filenaame=[
+    "EventTarget",
+    // "Node",
+    "WindowProperties",
     "Window",
 ];
 function getCode() {

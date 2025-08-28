@@ -12,8 +12,7 @@ const name = "test";// 固定时间戳
 const vm = new VM();
 debugger;
 // 全局对象配置
-// debugger
-// const configCode = fs.readFileSync(__dirname + "\\config\\config.js");
+const configCode = fs.readFileSync(__dirname + "\\config\\config.js");
 //功能插件相关西数
 const toolscode = tools.getCode();
 //浏览器环境相关代码
@@ -28,8 +27,8 @@ const proxyobjCode = tools.getFile("proxyObj");
 const debugCode = user.getCode(name, "input");
 //异步执行的代码
 const asyncCode = user.getCode(name, "async");
-// // winodw对象
-// const globadlThis_=fs.readFileSync("./tools/globalThis.js");
+// winodw对象
+const globadlThis_=fs.readFileSync("./tools/globalThis.js");
 // // // 时间戳设置
 // // const timeVar=fs.readFileSync("./tools/timeVar.js");
 // // //输入日志
@@ -39,7 +38,7 @@ const asyncCode = user.getCode(name, "async");
 //
 // // 整合代码
 // // const codeTest = `${configCode}${toolscode}${logCode}${ }${globalvarCode}${timeVar}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
-const codeTest = `${toolscode}${envCode}${globalvarCode}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
+const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
 //
 //
 // // const crypto = require('crypto');
@@ -61,3 +60,7 @@ console.log("===================================================================
 console.log("输出结果:",result);
 // console.log(tools.getNowDate(), `result -->`, result);
 console.log("执行完毕！");
+
+
+
+// Object.getOwnPropertyDescriptor(window,"name")
