@@ -1,5 +1,24 @@
 //功能插件相关函数
 !(function () {
+        // env函数分发器
+    framevm.toolsFunc.dispatch = function dispatch(self, obj, objName, funcName, argList, defaultValue){
+                        debugger;
+        let name = `${objName}_${funcName}`; // EventTarget_addEventListener
+        if(Object.getOwnPropertyDescriptor(obj, "constructor") !== undefined){
+            if(Object.getOwnPropertyDescriptor(self, "constructor") !== undefined){
+                // self 不是实例对象
+                return framevm.toolsFunc.throwError('TypeError', 'Illegal invocation');
+            }
+        }
+        try{
+            return framevm.envFunc[name].apply(self, argList);
+        }catch (e){
+            if(defaultValue === undefined){
+                framevm.toolsFunc.console_copy(`[${name}]正在执行，错误信息: ${e.message}`);
+            }
+            return defaultValue;
+        }
+    }
     // 定义对象属性defineProperty
     framevm.toolsFunc.defineProperty = function defineProperty(obj, prop, oldDescriptor)  {
         // 新的描述符
@@ -95,8 +114,7 @@
         let e = new Error();
         e.name = name;
         e.message = message;
-        e.stack = `${err.name}: ${message}
-        at snippet:///Script%20snippet%20%231:2:5`;
+        e.stack = `${name}: ${message}\n    at <anonymous>:1:1`;
         throw e;
     };
     //base64 编码

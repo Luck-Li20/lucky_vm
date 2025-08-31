@@ -10,6 +10,7 @@ delete ldObj;
 delete globalThis[Symbol.toStringTag];
 delete WindowProperties;
 window = globalThis;
+globalThis.__proto__= Window.prototype;
 // Object.setPrototypeOf(window, Window.prototype);
 
 
@@ -29,4 +30,4 @@ framevm.toolsFunc.defineProperty(window, "btoa", {
     }
 });
 
-framevm.toolsFunc.defineProperty(globalThis, "name", {configurable:true, enumerable:true, get:function name (){return framevm.toolsFunc.dispatch(this, window, "window", "name_get", arguments)}, set:function name (){return framevm.toolsFunc.dispatch(this, window, "window", "name_set", arguments)}});
+framevm.toolsFunc.defineProperty(window, "name", {configurable:true, enumerable:true, get:function name (){return framevm.toolsFunc.dispatch(this, window, "window", "name_get", arguments)}, set:function name (){return framevm.toolsFunc.dispatch(this, window, "window", "name_set", arguments)}});
