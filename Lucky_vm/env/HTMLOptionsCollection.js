@@ -1,0 +1,8 @@
+// HTMLOptionsCollection 对象 
+HTMLOptionsCollection = function HTMLOptionsCollection(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(HTMLOptionsCollection,"HTMLOptionsCollection");
+Object.setPrototypeOf(HTMLOptionsCollection.prototype, HTMLCollection.prototype);
+framevm.toolsFunc.defineProperty(HTMLOptionsCollection.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "length_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "length_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLOptionsCollection.prototype, "selectedIndex", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "selectedIndex_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "selectedIndex_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLOptionsCollection.prototype, "add", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "add", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLOptionsCollection.prototype, "remove", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HTMLOptionsCollection.prototype, "HTMLOptionsCollection", "remove", arguments)}});

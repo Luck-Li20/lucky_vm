@@ -1,0 +1,14 @@
+// AudioListener 对象 
+AudioListener = function AudioListener(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(AudioListener,"AudioListener");
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "positionX", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "positionX_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "positionY", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "positionY_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "positionZ", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "positionZ_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "forwardX", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "forwardX_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "forwardY", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "forwardY_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "forwardZ", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "forwardZ_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "upX", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "upX_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "upY", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "upY_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "upZ", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "upZ_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "setOrientation", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "setOrientation", arguments)}});
+framevm.toolsFunc.defineProperty(AudioListener.prototype, "setPosition", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioListener.prototype, "AudioListener", "setPosition", arguments)}});

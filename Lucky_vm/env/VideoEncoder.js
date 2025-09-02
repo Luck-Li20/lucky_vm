@@ -1,0 +1,13 @@
+// VideoEncoder 对象 
+VideoEncoder = function VideoEncoder(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'VideoEncoder': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(VideoEncoder,"VideoEncoder");
+Object.setPrototypeOf(VideoEncoder.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(VideoEncoder, "isConfigSupported", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder, "VideoEncoder", "isConfigSupported", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "encodeQueueSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "encodeQueueSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "state", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "state_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "close", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "configure", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "configure", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "encode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "encode", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "flush", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "flush", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "reset", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "reset", arguments)}});
+framevm.toolsFunc.defineProperty(VideoEncoder.prototype, "ondequeue", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "ondequeue_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, VideoEncoder.prototype, "VideoEncoder", "ondequeue_set", arguments)}});

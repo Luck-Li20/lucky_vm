@@ -1,0 +1,10 @@
+// PublicKeyCredential 对象 
+PublicKeyCredential = function PublicKeyCredential(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(PublicKeyCredential,"PublicKeyCredential");
+Object.setPrototypeOf(PublicKeyCredential.prototype, Credential.prototype);
+framevm.toolsFunc.defineProperty(PublicKeyCredential, "isUserVerifyingPlatformAuthenticatorAvailable", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential, "PublicKeyCredential", "isUserVerifyingPlatformAuthenticatorAvailable", arguments)}});
+framevm.toolsFunc.defineProperty(PublicKeyCredential, "isConditionalMediationAvailable", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential, "PublicKeyCredential", "isConditionalMediationAvailable", arguments)}});
+framevm.toolsFunc.defineProperty(PublicKeyCredential.prototype, "rawId", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential.prototype, "PublicKeyCredential", "rawId_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PublicKeyCredential.prototype, "response", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential.prototype, "PublicKeyCredential", "response_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PublicKeyCredential.prototype, "authenticatorAttachment", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential.prototype, "PublicKeyCredential", "authenticatorAttachment_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PublicKeyCredential.prototype, "getClientExtensionResults", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PublicKeyCredential.prototype, "PublicKeyCredential", "getClientExtensionResults", arguments)}});

@@ -1,0 +1,11 @@
+// LargestContentfulPaint 对象 
+LargestContentfulPaint = function LargestContentfulPaint(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(LargestContentfulPaint,"LargestContentfulPaint");
+Object.setPrototypeOf(LargestContentfulPaint.prototype, PerformanceEntry.prototype);
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "renderTime", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "renderTime_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "loadTime", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "loadTime_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "size", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "size_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "id", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "id_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "url", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "url_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "element", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "element_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(LargestContentfulPaint.prototype, "toJSON", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, LargestContentfulPaint.prototype, "LargestContentfulPaint", "toJSON", arguments)}});

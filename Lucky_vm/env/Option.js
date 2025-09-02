@@ -1,0 +1,12 @@
+// Option 对象 
+Option = function Option(){};
+framevm.toolsFunc.safeProto(Option,"Option");
+Object.setPrototypeOf(Option.prototype, HTMLElement.prototype);
+framevm.toolsFunc.defineProperty(Option.prototype, "disabled", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "disabled_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "disabled_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "form", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "form_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Option.prototype, "label", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "label_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "label_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "defaultSelected", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "defaultSelected_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "defaultSelected_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "selected", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "selected_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "selected_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "value", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "value_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "value_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "text", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "text_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "text_set", arguments)}});
+framevm.toolsFunc.defineProperty(Option.prototype, "index", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Option.prototype, "Option", "index_get", arguments)}, set:undefined});

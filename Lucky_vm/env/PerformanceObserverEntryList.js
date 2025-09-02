@@ -1,0 +1,6 @@
+// PerformanceObserverEntryList 对象 
+PerformanceObserverEntryList = function PerformanceObserverEntryList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(PerformanceObserverEntryList,"PerformanceObserverEntryList");
+framevm.toolsFunc.defineProperty(PerformanceObserverEntryList.prototype, "getEntries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PerformanceObserverEntryList.prototype, "PerformanceObserverEntryList", "getEntries", arguments)}});
+framevm.toolsFunc.defineProperty(PerformanceObserverEntryList.prototype, "getEntriesByName", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PerformanceObserverEntryList.prototype, "PerformanceObserverEntryList", "getEntriesByName", arguments)}});
+framevm.toolsFunc.defineProperty(PerformanceObserverEntryList.prototype, "getEntriesByType", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PerformanceObserverEntryList.prototype, "PerformanceObserverEntryList", "getEntriesByType", arguments)}});

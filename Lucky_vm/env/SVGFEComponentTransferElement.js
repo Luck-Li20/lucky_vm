@@ -1,0 +1,10 @@
+// SVGFEComponentTransferElement 对象 
+SVGFEComponentTransferElement = function SVGFEComponentTransferElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGFEComponentTransferElement,"SVGFEComponentTransferElement");
+Object.setPrototypeOf(SVGFEComponentTransferElement.prototype, SVGElement.prototype);
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "in1", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "in1_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "x_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "y_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "width", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "width_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "height", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "height_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFEComponentTransferElement.prototype, "result", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFEComponentTransferElement.prototype, "SVGFEComponentTransferElement", "result_get", arguments)}, set:undefined});

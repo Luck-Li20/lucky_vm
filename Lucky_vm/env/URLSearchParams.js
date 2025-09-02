@@ -1,0 +1,15 @@
+// URLSearchParams 对象 
+URLSearchParams = function URLSearchParams(){};
+framevm.toolsFunc.safeProto(URLSearchParams,"URLSearchParams");
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "append", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "append", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "delete", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "delete", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "get", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "get", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "getAll", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "getAll", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "has", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "has", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "set", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "set", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "sort", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "sort", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "toString", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "toString", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "forEach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "forEach", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(URLSearchParams.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, URLSearchParams.prototype, "URLSearchParams", "values", arguments)}});

@@ -1,0 +1,12 @@
+// MediaList 对象 
+MediaList = function MediaList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(MediaList,"MediaList");
+framevm.toolsFunc.defineProperty(MediaList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "mediaText", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "mediaText_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "mediaText_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "appendMedium", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "appendMedium", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "deleteMedium", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "deleteMedium", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "item", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "item", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "toString", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "toString", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "values", {configurable:true, enumerable:false, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "values", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "keys", {configurable:true, enumerable:false, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(MediaList.prototype, "entries", {configurable:true, enumerable:false, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaList.prototype, "MediaList", "entries", arguments)}});

@@ -1,0 +1,11 @@
+// FileSystemDirectoryHandle 对象 
+FileSystemDirectoryHandle = function FileSystemDirectoryHandle(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(FileSystemDirectoryHandle,"FileSystemDirectoryHandle");
+Object.setPrototypeOf(FileSystemDirectoryHandle.prototype, FileSystemHandle.prototype);
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "getDirectoryHandle", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "getDirectoryHandle", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "getFileHandle", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "getFileHandle", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "removeEntry", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "removeEntry", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "resolve", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "resolve", arguments)}});
+framevm.toolsFunc.defineProperty(FileSystemDirectoryHandle.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, FileSystemDirectoryHandle.prototype, "FileSystemDirectoryHandle", "values", arguments)}});

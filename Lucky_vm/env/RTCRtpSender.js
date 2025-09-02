@@ -1,0 +1,14 @@
+// RTCRtpSender 对象 
+RTCRtpSender = function RTCRtpSender(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(RTCRtpSender,"RTCRtpSender");
+framevm.toolsFunc.defineProperty(RTCRtpSender, "getCapabilities", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender, "RTCRtpSender", "getCapabilities", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "track", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "track_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "transport", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "transport_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "rtcpTransport", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "rtcpTransport_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "dtmf", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "dtmf_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "createEncodedStreams", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "createEncodedStreams", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "getParameters", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "getParameters", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "getStats", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "getStats", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "replaceTrack", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "replaceTrack", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "setParameters", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "setParameters", arguments)}});
+framevm.toolsFunc.defineProperty(RTCRtpSender.prototype, "setStreams", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCRtpSender.prototype, "RTCRtpSender", "setStreams", arguments)}});

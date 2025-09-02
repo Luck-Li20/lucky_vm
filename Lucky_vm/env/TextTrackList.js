@@ -1,0 +1,9 @@
+// TextTrackList 对象 
+TextTrackList = function TextTrackList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(TextTrackList,"TextTrackList");
+Object.setPrototypeOf(TextTrackList.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(TextTrackList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrackList.prototype, "onchange", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onchange_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onchange_set", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrackList.prototype, "onaddtrack", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onaddtrack_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onaddtrack_set", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrackList.prototype, "onremovetrack", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onremovetrack_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "onremovetrack_set", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrackList.prototype, "getTrackById", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TextTrackList.prototype, "TextTrackList", "getTrackById", arguments)}});

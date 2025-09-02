@@ -1,0 +1,8 @@
+// ResizeObserverEntry 对象 
+ResizeObserverEntry = function ResizeObserverEntry(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(ResizeObserverEntry,"ResizeObserverEntry");
+framevm.toolsFunc.defineProperty(ResizeObserverEntry.prototype, "target", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ResizeObserverEntry.prototype, "ResizeObserverEntry", "target_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ResizeObserverEntry.prototype, "contentRect", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ResizeObserverEntry.prototype, "ResizeObserverEntry", "contentRect_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ResizeObserverEntry.prototype, "contentBoxSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ResizeObserverEntry.prototype, "ResizeObserverEntry", "contentBoxSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ResizeObserverEntry.prototype, "borderBoxSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ResizeObserverEntry.prototype, "ResizeObserverEntry", "borderBoxSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ResizeObserverEntry.prototype, "devicePixelContentBoxSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ResizeObserverEntry.prototype, "ResizeObserverEntry", "devicePixelContentBoxSize_get", arguments)}, set:undefined});

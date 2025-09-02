@@ -1,0 +1,12 @@
+// SVGFESpotLightElement 对象 
+SVGFESpotLightElement = function SVGFESpotLightElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGFESpotLightElement,"SVGFESpotLightElement");
+Object.setPrototypeOf(SVGFESpotLightElement.prototype, SVGElement.prototype);
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "x_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "y_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "z", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "z_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "pointsAtX", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "pointsAtX_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "pointsAtY", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "pointsAtY_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "pointsAtZ", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "pointsAtZ_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "specularExponent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "specularExponent_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGFESpotLightElement.prototype, "limitingConeAngle", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGFESpotLightElement.prototype, "SVGFESpotLightElement", "limitingConeAngle_get", arguments)}, set:undefined});

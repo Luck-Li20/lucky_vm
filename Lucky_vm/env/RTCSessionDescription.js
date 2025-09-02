@@ -1,0 +1,6 @@
+// RTCSessionDescription 对象 
+RTCSessionDescription = function RTCSessionDescription(){};
+framevm.toolsFunc.safeProto(RTCSessionDescription,"RTCSessionDescription");
+framevm.toolsFunc.defineProperty(RTCSessionDescription.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCSessionDescription.prototype, "RTCSessionDescription", "type_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCSessionDescription.prototype, "RTCSessionDescription", "type_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCSessionDescription.prototype, "sdp", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCSessionDescription.prototype, "RTCSessionDescription", "sdp_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCSessionDescription.prototype, "RTCSessionDescription", "sdp_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCSessionDescription.prototype, "toJSON", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCSessionDescription.prototype, "RTCSessionDescription", "toJSON", arguments)}});

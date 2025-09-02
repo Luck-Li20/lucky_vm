@@ -1,0 +1,11 @@
+// History 对象
+History = function History(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(History,"History");
+framevm.toolsFunc.defineProperty(History.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(History.prototype, "scrollRestoration", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "scrollRestoration_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "scrollRestoration_set", arguments)}});
+framevm.toolsFunc.defineProperty(History.prototype, "state", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "state_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(History.prototype, "back", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "back", arguments)}});
+framevm.toolsFunc.defineProperty(History.prototype, "forward", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "forward", arguments)}});
+framevm.toolsFunc.defineProperty(History.prototype, "go", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "go", arguments)}});
+framevm.toolsFunc.defineProperty(History.prototype, "pushState", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "pushState", arguments)}});
+framevm.toolsFunc.defineProperty(History.prototype, "replaceState", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, History.prototype, "History", "replaceState", arguments)}});

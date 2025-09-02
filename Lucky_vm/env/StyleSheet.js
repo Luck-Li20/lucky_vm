@@ -1,0 +1,10 @@
+// StyleSheet 对象 
+StyleSheet = function StyleSheet(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(StyleSheet,"StyleSheet");
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "href", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "href_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "ownerNode", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "ownerNode_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "parentStyleSheet", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "parentStyleSheet_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "title", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "title_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "media", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "media_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "media_set", arguments)}});
+framevm.toolsFunc.defineProperty(StyleSheet.prototype, "disabled", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "disabled_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, StyleSheet.prototype, "StyleSheet", "disabled_set", arguments)}});

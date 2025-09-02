@@ -1,0 +1,5 @@
+// CSSVariableReferenceValue 对象 
+CSSVariableReferenceValue = function CSSVariableReferenceValue(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'CSSVariableReferenceValue': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(CSSVariableReferenceValue,"CSSVariableReferenceValue");
+framevm.toolsFunc.defineProperty(CSSVariableReferenceValue.prototype, "variable", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSVariableReferenceValue.prototype, "CSSVariableReferenceValue", "variable_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, CSSVariableReferenceValue.prototype, "CSSVariableReferenceValue", "variable_set", arguments)}});
+framevm.toolsFunc.defineProperty(CSSVariableReferenceValue.prototype, "fallback", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSVariableReferenceValue.prototype, "CSSVariableReferenceValue", "fallback_get", arguments)}, set:undefined});

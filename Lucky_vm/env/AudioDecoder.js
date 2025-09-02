@@ -1,0 +1,13 @@
+// AudioDecoder 对象 
+AudioDecoder = function AudioDecoder(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'AudioDecoder': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(AudioDecoder,"AudioDecoder");
+Object.setPrototypeOf(AudioDecoder.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(AudioDecoder, "isConfigSupported", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder, "AudioDecoder", "isConfigSupported", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "decodeQueueSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "decodeQueueSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "state", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "state_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "close", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "configure", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "configure", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "decode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "decode", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "flush", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "flush", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "reset", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "reset", arguments)}});
+framevm.toolsFunc.defineProperty(AudioDecoder.prototype, "ondequeue", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "ondequeue_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, AudioDecoder.prototype, "AudioDecoder", "ondequeue_set", arguments)}});

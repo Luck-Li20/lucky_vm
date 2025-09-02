@@ -1,0 +1,7 @@
+// RTCEncodedAudioFrame 对象 
+RTCEncodedAudioFrame = function RTCEncodedAudioFrame(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(RTCEncodedAudioFrame,"RTCEncodedAudioFrame");
+framevm.toolsFunc.defineProperty(RTCEncodedAudioFrame.prototype, "timestamp", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedAudioFrame.prototype, "RTCEncodedAudioFrame", "timestamp_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCEncodedAudioFrame.prototype, "data", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedAudioFrame.prototype, "RTCEncodedAudioFrame", "data_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedAudioFrame.prototype, "RTCEncodedAudioFrame", "data_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCEncodedAudioFrame.prototype, "getMetadata", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedAudioFrame.prototype, "RTCEncodedAudioFrame", "getMetadata", arguments)}});
+framevm.toolsFunc.defineProperty(RTCEncodedAudioFrame.prototype, "toString", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedAudioFrame.prototype, "RTCEncodedAudioFrame", "toString", arguments)}});

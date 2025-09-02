@@ -1,0 +1,12 @@
+// MutationRecord 对象 
+MutationRecord = function MutationRecord(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(MutationRecord,"MutationRecord");
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "target", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "target_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "addedNodes", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "addedNodes_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "removedNodes", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "removedNodes_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "previousSibling", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "previousSibling_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "nextSibling", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "nextSibling_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "attributeName", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "attributeName_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "attributeNamespace", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "attributeNamespace_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MutationRecord.prototype, "oldValue", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MutationRecord.prototype, "MutationRecord", "oldValue_get", arguments)}, set:undefined});

@@ -1,0 +1,10 @@
+// MediaKeyStatusMap 对象 
+MediaKeyStatusMap = function MediaKeyStatusMap(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(MediaKeyStatusMap,"MediaKeyStatusMap");
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "size", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "size_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "get", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "get", arguments)}});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "has", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "has", arguments)}});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "forEach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "forEach", arguments)}});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(MediaKeyStatusMap.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaKeyStatusMap.prototype, "MediaKeyStatusMap", "values", arguments)}});

@@ -1,0 +1,11 @@
+// NodeIterator 对象 
+NodeIterator = function NodeIterator(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(NodeIterator,"NodeIterator");
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "root", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "root_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "referenceNode", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "referenceNode_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "pointerBeforeReferenceNode", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "pointerBeforeReferenceNode_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "whatToShow", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "whatToShow_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "filter", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "filter_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "detach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "detach", arguments)}});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "nextNode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "nextNode", arguments)}});
+framevm.toolsFunc.defineProperty(NodeIterator.prototype, "previousNode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NodeIterator.prototype, "NodeIterator", "previousNode", arguments)}});

@@ -1,0 +1,12 @@
+// CustomStateSet 对象 
+CustomStateSet = function CustomStateSet(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(CustomStateSet,"CustomStateSet");
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "size", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "size_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "add", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "add", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "delete", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "delete", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "forEach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "forEach", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "has", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "has", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(CustomStateSet.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CustomStateSet.prototype, "CustomStateSet", "values", arguments)}});

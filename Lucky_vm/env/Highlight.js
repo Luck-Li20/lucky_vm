@@ -1,0 +1,14 @@
+// Highlight 对象 
+Highlight = function Highlight(){};
+framevm.toolsFunc.safeProto(Highlight,"Highlight");
+framevm.toolsFunc.defineProperty(Highlight.prototype, "priority", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "priority_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "priority_set", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "type_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "type_set", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "size", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "size_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "add", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "add", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "delete", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "delete", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "forEach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "forEach", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "has", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "has", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(Highlight.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Highlight.prototype, "Highlight", "values", arguments)}});

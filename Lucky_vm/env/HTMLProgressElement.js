@@ -1,0 +1,8 @@
+// HTMLProgressElement 对象 
+HTMLProgressElement = function HTMLProgressElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(HTMLProgressElement,"HTMLProgressElement");
+Object.setPrototypeOf(HTMLProgressElement.prototype, HTMLElement.prototype);
+framevm.toolsFunc.defineProperty(HTMLProgressElement.prototype, "value", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "value_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "value_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLProgressElement.prototype, "max", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "max_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "max_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLProgressElement.prototype, "position", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "position_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HTMLProgressElement.prototype, "labels", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLProgressElement.prototype, "HTMLProgressElement", "labels_get", arguments)}, set:undefined});

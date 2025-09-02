@@ -1,0 +1,15 @@
+// CSSNumericValue 对象 
+CSSNumericValue = function CSSNumericValue(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(CSSNumericValue,"CSSNumericValue");
+Object.setPrototypeOf(CSSNumericValue.prototype, CSSStyleValue.prototype);
+framevm.toolsFunc.defineProperty(CSSNumericValue, "parse", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue, "CSSNumericValue", "parse", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "add", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "add", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "div", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "div", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "equals", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "equals", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "max", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "max", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "min", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "min", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "mul", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "mul", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "sub", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "sub", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "to", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "to", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "toSum", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "toSum", arguments)}});
+framevm.toolsFunc.defineProperty(CSSNumericValue.prototype, "type", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, CSSNumericValue.prototype, "CSSNumericValue", "type", arguments)}});

@@ -1,0 +1,9 @@
+// BroadcastChannel 对象 
+BroadcastChannel = function BroadcastChannel(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'BroadcastChannel': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(BroadcastChannel,"BroadcastChannel");
+Object.setPrototypeOf(BroadcastChannel.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(BroadcastChannel.prototype, "name", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "name_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(BroadcastChannel.prototype, "onmessage", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "onmessage_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "onmessage_set", arguments)}});
+framevm.toolsFunc.defineProperty(BroadcastChannel.prototype, "onmessageerror", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "onmessageerror_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "onmessageerror_set", arguments)}});
+framevm.toolsFunc.defineProperty(BroadcastChannel.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "close", arguments)}});
+framevm.toolsFunc.defineProperty(BroadcastChannel.prototype, "postMessage", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, BroadcastChannel.prototype, "BroadcastChannel", "postMessage", arguments)}});

@@ -1,0 +1,10 @@
+// KeyboardLayoutMap 对象 
+KeyboardLayoutMap = function KeyboardLayoutMap(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(KeyboardLayoutMap,"KeyboardLayoutMap");
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "size", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "size_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "entries", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "entries", arguments)}});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "forEach", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "forEach", arguments)}});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "get", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "get", arguments)}});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "has", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "has", arguments)}});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "keys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "keys", arguments)}});
+framevm.toolsFunc.defineProperty(KeyboardLayoutMap.prototype, "values", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, KeyboardLayoutMap.prototype, "KeyboardLayoutMap", "values", arguments)}});

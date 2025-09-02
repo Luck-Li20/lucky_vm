@@ -1,0 +1,8 @@
+// PresentationRequest 对象 
+PresentationRequest = function PresentationRequest(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'PresentationRequest': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(PresentationRequest,"PresentationRequest");
+Object.setPrototypeOf(PresentationRequest.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(PresentationRequest.prototype, "onconnectionavailable", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PresentationRequest.prototype, "PresentationRequest", "onconnectionavailable_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, PresentationRequest.prototype, "PresentationRequest", "onconnectionavailable_set", arguments)}});
+framevm.toolsFunc.defineProperty(PresentationRequest.prototype, "getAvailability", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PresentationRequest.prototype, "PresentationRequest", "getAvailability", arguments)}});
+framevm.toolsFunc.defineProperty(PresentationRequest.prototype, "reconnect", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PresentationRequest.prototype, "PresentationRequest", "reconnect", arguments)}});
+framevm.toolsFunc.defineProperty(PresentationRequest.prototype, "start", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PresentationRequest.prototype, "PresentationRequest", "start", arguments)}});

@@ -1,0 +1,10 @@
+// DynamicsCompressorNode 对象 
+DynamicsCompressorNode = function DynamicsCompressorNode(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'DynamicsCompressorNode': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(DynamicsCompressorNode,"DynamicsCompressorNode");
+Object.setPrototypeOf(DynamicsCompressorNode.prototype, AudioNode.prototype);
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "threshold", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "threshold_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "knee", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "knee_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "ratio", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "ratio_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "reduction", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "reduction_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "attack", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "attack_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DynamicsCompressorNode.prototype, "release", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DynamicsCompressorNode.prototype, "DynamicsCompressorNode", "release_get", arguments)}, set:undefined});

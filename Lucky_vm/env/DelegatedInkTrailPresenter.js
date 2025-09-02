@@ -1,0 +1,6 @@
+// DelegatedInkTrailPresenter 对象 
+DelegatedInkTrailPresenter = function DelegatedInkTrailPresenter(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(DelegatedInkTrailPresenter,"DelegatedInkTrailPresenter");
+framevm.toolsFunc.defineProperty(DelegatedInkTrailPresenter.prototype, "presentationArea", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DelegatedInkTrailPresenter.prototype, "DelegatedInkTrailPresenter", "presentationArea_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DelegatedInkTrailPresenter.prototype, "expectedImprovement", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DelegatedInkTrailPresenter.prototype, "DelegatedInkTrailPresenter", "expectedImprovement_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DelegatedInkTrailPresenter.prototype, "updateInkTrailStartPoint", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DelegatedInkTrailPresenter.prototype, "DelegatedInkTrailPresenter", "updateInkTrailStartPoint", arguments)}});

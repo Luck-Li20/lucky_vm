@@ -1,0 +1,7 @@
+// SVGRect 对象 
+SVGRect = function SVGRect(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGRect,"SVGRect");
+framevm.toolsFunc.defineProperty(SVGRect.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "x_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "x_set", arguments)}});
+framevm.toolsFunc.defineProperty(SVGRect.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "y_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "y_set", arguments)}});
+framevm.toolsFunc.defineProperty(SVGRect.prototype, "width", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "width_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "width_set", arguments)}});
+framevm.toolsFunc.defineProperty(SVGRect.prototype, "height", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "height_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SVGRect.prototype, "SVGRect", "height_set", arguments)}});

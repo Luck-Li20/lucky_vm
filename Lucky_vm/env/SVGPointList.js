@@ -1,0 +1,12 @@
+// SVGPointList 对象 
+SVGPointList = function SVGPointList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGPointList,"SVGPointList");
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "numberOfItems", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "numberOfItems_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "appendItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "appendItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "getItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "getItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "initialize", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "initialize", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "insertItemBefore", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "insertItemBefore", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "removeItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "removeItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGPointList.prototype, "replaceItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGPointList.prototype, "SVGPointList", "replaceItem", arguments)}});

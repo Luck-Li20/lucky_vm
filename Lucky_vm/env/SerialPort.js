@@ -1,0 +1,14 @@
+// SerialPort 对象 
+SerialPort = function SerialPort(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SerialPort,"SerialPort");
+Object.setPrototypeOf(SerialPort.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "onconnect", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "onconnect_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "onconnect_set", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "ondisconnect", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "ondisconnect_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "ondisconnect_set", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "readable", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "readable_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "writable", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "writable_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "close", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "forget", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "forget", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "getInfo", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "getInfo", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "getSignals", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "getSignals", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "open", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "open", arguments)}});
+framevm.toolsFunc.defineProperty(SerialPort.prototype, "setSignals", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SerialPort.prototype, "SerialPort", "setSignals", arguments)}});

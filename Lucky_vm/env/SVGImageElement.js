@@ -1,0 +1,12 @@
+// SVGImageElement 对象 
+SVGImageElement = function SVGImageElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGImageElement,"SVGImageElement");
+Object.setPrototypeOf(SVGImageElement.prototype, SVGGraphicsElement.prototype);
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "x_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "y_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "width", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "width_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "height", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "height_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "preserveAspectRatio", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "preserveAspectRatio_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "decoding", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "decoding_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "decoding_set", arguments)}});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "href", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "href_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGImageElement.prototype, "decode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGImageElement.prototype, "SVGImageElement", "decode", arguments)}});

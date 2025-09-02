@@ -1,0 +1,15 @@
+// IDBIndex 对象 
+IDBIndex = function IDBIndex(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(IDBIndex,"IDBIndex");
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "name", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "name_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "name_set", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "objectStore", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "objectStore_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "keyPath", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "keyPath_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "multiEntry", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "multiEntry_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "unique", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "unique_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "count", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "count", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "get", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "get", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "getAll", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "getAll", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "getAllKeys", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "getAllKeys", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "getKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "getKey", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "openCursor", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "openCursor", arguments)}});
+framevm.toolsFunc.defineProperty(IDBIndex.prototype, "openKeyCursor", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, IDBIndex.prototype, "IDBIndex", "openKeyCursor", arguments)}});

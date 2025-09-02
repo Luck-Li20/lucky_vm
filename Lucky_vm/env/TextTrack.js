@@ -1,0 +1,14 @@
+// TextTrack 对象 
+TextTrack = function TextTrack(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(TextTrack,"TextTrack");
+Object.setPrototypeOf(TextTrack.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "kind", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "kind_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "label", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "label_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "language", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "language_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "id", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "id_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "mode", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "mode_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "mode_set", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "cues", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "cues_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "activeCues", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "activeCues_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "oncuechange", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "oncuechange_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "oncuechange_set", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "addCue", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "addCue", arguments)}});
+framevm.toolsFunc.defineProperty(TextTrack.prototype, "removeCue", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TextTrack.prototype, "TextTrack", "removeCue", arguments)}});

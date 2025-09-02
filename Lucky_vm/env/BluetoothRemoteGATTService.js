@@ -1,0 +1,8 @@
+// BluetoothRemoteGATTService 对象 
+BluetoothRemoteGATTService = function BluetoothRemoteGATTService(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(BluetoothRemoteGATTService,"BluetoothRemoteGATTService");
+framevm.toolsFunc.defineProperty(BluetoothRemoteGATTService.prototype, "device", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BluetoothRemoteGATTService.prototype, "BluetoothRemoteGATTService", "device_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(BluetoothRemoteGATTService.prototype, "uuid", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BluetoothRemoteGATTService.prototype, "BluetoothRemoteGATTService", "uuid_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(BluetoothRemoteGATTService.prototype, "isPrimary", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, BluetoothRemoteGATTService.prototype, "BluetoothRemoteGATTService", "isPrimary_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(BluetoothRemoteGATTService.prototype, "getCharacteristic", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, BluetoothRemoteGATTService.prototype, "BluetoothRemoteGATTService", "getCharacteristic", arguments)}});
+framevm.toolsFunc.defineProperty(BluetoothRemoteGATTService.prototype, "getCharacteristics", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, BluetoothRemoteGATTService.prototype, "BluetoothRemoteGATTService", "getCharacteristics", arguments)}});

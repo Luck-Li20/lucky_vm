@@ -1,0 +1,8 @@
+// HTMLParamElement 对象 
+HTMLParamElement = function HTMLParamElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(HTMLParamElement,"HTMLParamElement");
+Object.setPrototypeOf(HTMLParamElement.prototype, HTMLElement.prototype);
+framevm.toolsFunc.defineProperty(HTMLParamElement.prototype, "name", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "name_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "name_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLParamElement.prototype, "value", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "value_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "value_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLParamElement.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "type_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "type_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLParamElement.prototype, "valueType", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "valueType_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLParamElement.prototype, "HTMLParamElement", "valueType_set", arguments)}});

@@ -1,0 +1,11 @@
+// NamedNodeMap 对象 
+NamedNodeMap = function NamedNodeMap(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(NamedNodeMap,"NamedNodeMap");
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "getNamedItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "getNamedItem", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "getNamedItemNS", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "getNamedItemNS", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "item", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "item", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "removeNamedItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "removeNamedItem", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "removeNamedItemNS", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "removeNamedItemNS", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "setNamedItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "setNamedItem", arguments)}});
+framevm.toolsFunc.defineProperty(NamedNodeMap.prototype, "setNamedItemNS", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NamedNodeMap.prototype, "NamedNodeMap", "setNamedItemNS", arguments)}});

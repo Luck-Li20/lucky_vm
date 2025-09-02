@@ -1,0 +1,7 @@
+// VideoPlaybackQuality 对象 
+VideoPlaybackQuality = function VideoPlaybackQuality(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(VideoPlaybackQuality,"VideoPlaybackQuality");
+framevm.toolsFunc.defineProperty(VideoPlaybackQuality.prototype, "creationTime", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoPlaybackQuality.prototype, "VideoPlaybackQuality", "creationTime_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VideoPlaybackQuality.prototype, "totalVideoFrames", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoPlaybackQuality.prototype, "VideoPlaybackQuality", "totalVideoFrames_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VideoPlaybackQuality.prototype, "droppedVideoFrames", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoPlaybackQuality.prototype, "VideoPlaybackQuality", "droppedVideoFrames_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VideoPlaybackQuality.prototype, "corruptedVideoFrames", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VideoPlaybackQuality.prototype, "VideoPlaybackQuality", "corruptedVideoFrames_get", arguments)}, set:undefined});

@@ -1,0 +1,11 @@
+// ImageDecoder 对象 
+ImageDecoder = function ImageDecoder(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'ImageDecoder': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(ImageDecoder,"ImageDecoder");
+framevm.toolsFunc.defineProperty(ImageDecoder, "isTypeSupported", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder, "ImageDecoder", "isTypeSupported", arguments)}});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "complete", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "complete_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "completed", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "completed_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "tracks", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "tracks_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "close", arguments)}});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "decode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "decode", arguments)}});
+framevm.toolsFunc.defineProperty(ImageDecoder.prototype, "reset", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ImageDecoder.prototype, "ImageDecoder", "reset", arguments)}});

@@ -1,0 +1,7 @@
+// ReadableStreamBYOBReader 对象 
+ReadableStreamBYOBReader = function ReadableStreamBYOBReader(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'ReadableStreamBYOBReader': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(ReadableStreamBYOBReader,"ReadableStreamBYOBReader");
+framevm.toolsFunc.defineProperty(ReadableStreamBYOBReader.prototype, "read", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamBYOBReader.prototype, "ReadableStreamBYOBReader", "read", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamBYOBReader.prototype, "releaseLock", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamBYOBReader.prototype, "ReadableStreamBYOBReader", "releaseLock", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamBYOBReader.prototype, "closed", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamBYOBReader.prototype, "ReadableStreamBYOBReader", "closed_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ReadableStreamBYOBReader.prototype, "cancel", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamBYOBReader.prototype, "ReadableStreamBYOBReader", "cancel", arguments)}});

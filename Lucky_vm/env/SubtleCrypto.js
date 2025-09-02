@@ -1,0 +1,15 @@
+// SubtleCrypto 对象 
+SubtleCrypto = function SubtleCrypto(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SubtleCrypto,"SubtleCrypto");
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "decrypt", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "decrypt", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "deriveBits", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "deriveBits", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "deriveKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "deriveKey", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "digest", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "digest", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "encrypt", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "encrypt", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "exportKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "exportKey", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "generateKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "generateKey", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "importKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "importKey", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "sign", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "sign", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "unwrapKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "unwrapKey", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "verify", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "verify", arguments)}});
+framevm.toolsFunc.defineProperty(SubtleCrypto.prototype, "wrapKey", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SubtleCrypto.prototype, "SubtleCrypto", "wrapKey", arguments)}});

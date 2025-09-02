@@ -1,0 +1,10 @@
+// PerformanceEventTiming 对象 
+PerformanceEventTiming = function PerformanceEventTiming(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(PerformanceEventTiming,"PerformanceEventTiming");
+Object.setPrototypeOf(PerformanceEventTiming.prototype, PerformanceEntry.prototype);
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "processingStart", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "processingStart_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "processingEnd", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "processingEnd_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "cancelable", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "cancelable_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "target", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "target_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "interactionId", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "interactionId_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(PerformanceEventTiming.prototype, "toJSON", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, PerformanceEventTiming.prototype, "PerformanceEventTiming", "toJSON", arguments)}});

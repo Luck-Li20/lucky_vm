@@ -1,0 +1,7 @@
+// MediaMetadata 对象 
+MediaMetadata = function MediaMetadata(){};
+framevm.toolsFunc.safeProto(MediaMetadata,"MediaMetadata");
+framevm.toolsFunc.defineProperty(MediaMetadata.prototype, "title", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "title_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "title_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaMetadata.prototype, "artist", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "artist_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "artist_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaMetadata.prototype, "album", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "album_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "album_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaMetadata.prototype, "artwork", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "artwork_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaMetadata.prototype, "MediaMetadata", "artwork_set", arguments)}});

@@ -1,0 +1,9 @@
+// NavigationDestination 对象 
+NavigationDestination = function NavigationDestination(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(NavigationDestination,"NavigationDestination");
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "key", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "key_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "id", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "id_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "url", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "url_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "index", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "index_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "sameDocument", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "sameDocument_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(NavigationDestination.prototype, "getState", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, NavigationDestination.prototype, "NavigationDestination", "getState", arguments)}});

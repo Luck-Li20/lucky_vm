@@ -1,0 +1,7 @@
+// ReadableStreamDefaultController 对象 
+ReadableStreamDefaultController = function ReadableStreamDefaultController(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(ReadableStreamDefaultController,"ReadableStreamDefaultController");
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultController.prototype, "desiredSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultController.prototype, "ReadableStreamDefaultController", "desiredSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultController.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultController.prototype, "ReadableStreamDefaultController", "close", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultController.prototype, "enqueue", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultController.prototype, "ReadableStreamDefaultController", "enqueue", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultController.prototype, "error", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultController.prototype, "ReadableStreamDefaultController", "error", arguments)}});

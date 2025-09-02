@@ -1,0 +1,12 @@
+// SVGStringList 对象 
+SVGStringList = function SVGStringList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGStringList,"SVGStringList");
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "numberOfItems", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "numberOfItems_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "appendItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "appendItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "getItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "getItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "initialize", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "initialize", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "insertItemBefore", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "insertItemBefore", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "removeItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "removeItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGStringList.prototype, "replaceItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGStringList.prototype, "SVGStringList", "replaceItem", arguments)}});

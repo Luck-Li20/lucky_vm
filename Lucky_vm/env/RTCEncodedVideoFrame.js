@@ -1,0 +1,8 @@
+// RTCEncodedVideoFrame 对象 
+RTCEncodedVideoFrame = function RTCEncodedVideoFrame(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(RTCEncodedVideoFrame,"RTCEncodedVideoFrame");
+framevm.toolsFunc.defineProperty(RTCEncodedVideoFrame.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCEncodedVideoFrame.prototype, "timestamp", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "timestamp_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCEncodedVideoFrame.prototype, "data", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "data_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "data_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCEncodedVideoFrame.prototype, "getMetadata", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "getMetadata", arguments)}});
+framevm.toolsFunc.defineProperty(RTCEncodedVideoFrame.prototype, "toString", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCEncodedVideoFrame.prototype, "RTCEncodedVideoFrame", "toString", arguments)}});

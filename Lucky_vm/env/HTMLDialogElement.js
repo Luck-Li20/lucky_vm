@@ -1,0 +1,9 @@
+// HTMLDialogElement 对象 
+HTMLDialogElement = function HTMLDialogElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(HTMLDialogElement,"HTMLDialogElement");
+Object.setPrototypeOf(HTMLDialogElement.prototype, HTMLElement.prototype);
+framevm.toolsFunc.defineProperty(HTMLDialogElement.prototype, "open", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "open_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "open_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLDialogElement.prototype, "returnValue", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "returnValue_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "returnValue_set", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLDialogElement.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "close", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLDialogElement.prototype, "show", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "show", arguments)}});
+framevm.toolsFunc.defineProperty(HTMLDialogElement.prototype, "showModal", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HTMLDialogElement.prototype, "HTMLDialogElement", "showModal", arguments)}});

@@ -1,0 +1,12 @@
+// SVGLengthList 对象 
+SVGLengthList = function SVGLengthList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGLengthList,"SVGLengthList");
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "numberOfItems", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "numberOfItems_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "appendItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "appendItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "getItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "getItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "initialize", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "initialize", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "insertItemBefore", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "insertItemBefore", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "removeItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "removeItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGLengthList.prototype, "replaceItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGLengthList.prototype, "SVGLengthList", "replaceItem", arguments)}});

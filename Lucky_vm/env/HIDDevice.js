@@ -1,0 +1,16 @@
+// HIDDevice 对象 
+HIDDevice = function HIDDevice(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(HIDDevice,"HIDDevice");
+Object.setPrototypeOf(HIDDevice.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "oninputreport", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "oninputreport_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "oninputreport_set", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "opened", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "opened_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "vendorId", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "vendorId_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "productId", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "productId_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "productName", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "productName_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "collections", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "collections_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "close", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "forget", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "forget", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "open", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "open", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "receiveFeatureReport", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "receiveFeatureReport", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "sendFeatureReport", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "sendFeatureReport", arguments)}});
+framevm.toolsFunc.defineProperty(HIDDevice.prototype, "sendReport", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, HIDDevice.prototype, "HIDDevice", "sendReport", arguments)}});

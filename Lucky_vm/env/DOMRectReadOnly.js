@@ -1,0 +1,13 @@
+// DOMRectReadOnly 对象 
+DOMRectReadOnly = function DOMRectReadOnly(){};
+framevm.toolsFunc.safeProto(DOMRectReadOnly,"DOMRectReadOnly");
+framevm.toolsFunc.defineProperty(DOMRectReadOnly, "fromRect", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly, "DOMRectReadOnly", "fromRect", arguments)}});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "x_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "y_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "width", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "width_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "height", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "height_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "top", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "top_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "right", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "right_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "bottom", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "bottom_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "left", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "left_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DOMRectReadOnly.prototype, "toJSON", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DOMRectReadOnly.prototype, "DOMRectReadOnly", "toJSON", arguments)}});

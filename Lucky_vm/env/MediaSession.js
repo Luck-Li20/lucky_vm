@@ -1,0 +1,9 @@
+// MediaSession 对象
+MediaSession = function MediaSession(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(MediaSession,"MediaSession");
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "metadata", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "metadata_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "metadata_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "playbackState", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "playbackState_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "playbackState_set", arguments)}});
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "setActionHandler", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "setActionHandler", arguments)}});
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "setCameraActive", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "setCameraActive", arguments)}});
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "setMicrophoneActive", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "setMicrophoneActive", arguments)}});
+framevm.toolsFunc.defineProperty(MediaSession.prototype, "setPositionState", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, MediaSession.prototype, "MediaSession", "setPositionState", arguments)}});

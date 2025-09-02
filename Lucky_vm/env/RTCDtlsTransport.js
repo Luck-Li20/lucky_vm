@@ -1,0 +1,9 @@
+// RTCDtlsTransport 对象 
+RTCDtlsTransport = function RTCDtlsTransport(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(RTCDtlsTransport,"RTCDtlsTransport");
+Object.setPrototypeOf(RTCDtlsTransport.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(RTCDtlsTransport.prototype, "iceTransport", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "iceTransport_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCDtlsTransport.prototype, "state", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "state_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(RTCDtlsTransport.prototype, "onstatechange", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "onstatechange_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "onstatechange_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCDtlsTransport.prototype, "onerror", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "onerror_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "onerror_set", arguments)}});
+framevm.toolsFunc.defineProperty(RTCDtlsTransport.prototype, "getRemoteCertificates", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, RTCDtlsTransport.prototype, "RTCDtlsTransport", "getRemoteCertificates", arguments)}});

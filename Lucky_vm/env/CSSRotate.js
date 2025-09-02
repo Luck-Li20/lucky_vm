@@ -1,0 +1,8 @@
+// CSSRotate 对象 
+CSSRotate = function CSSRotate(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'CSSRotate': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(CSSRotate,"CSSRotate");
+Object.setPrototypeOf(CSSRotate.prototype, CSSTransformComponent.prototype);
+framevm.toolsFunc.defineProperty(CSSRotate.prototype, "angle", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "angle_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "angle_set", arguments)}});
+framevm.toolsFunc.defineProperty(CSSRotate.prototype, "x", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "x_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "x_set", arguments)}});
+framevm.toolsFunc.defineProperty(CSSRotate.prototype, "y", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "y_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "y_set", arguments)}});
+framevm.toolsFunc.defineProperty(CSSRotate.prototype, "z", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "z_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, CSSRotate.prototype, "CSSRotate", "z_set", arguments)}});

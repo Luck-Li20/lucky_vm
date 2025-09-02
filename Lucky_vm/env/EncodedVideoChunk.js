@@ -1,0 +1,8 @@
+// EncodedVideoChunk 对象 
+EncodedVideoChunk = function EncodedVideoChunk(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'EncodedVideoChunk': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(EncodedVideoChunk,"EncodedVideoChunk");
+framevm.toolsFunc.defineProperty(EncodedVideoChunk.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedVideoChunk.prototype, "EncodedVideoChunk", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedVideoChunk.prototype, "timestamp", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedVideoChunk.prototype, "EncodedVideoChunk", "timestamp_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedVideoChunk.prototype, "duration", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedVideoChunk.prototype, "EncodedVideoChunk", "duration_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedVideoChunk.prototype, "byteLength", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedVideoChunk.prototype, "EncodedVideoChunk", "byteLength_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedVideoChunk.prototype, "copyTo", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, EncodedVideoChunk.prototype, "EncodedVideoChunk", "copyTo", arguments)}});

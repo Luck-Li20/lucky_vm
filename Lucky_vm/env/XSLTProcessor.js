@@ -1,0 +1,11 @@
+// XSLTProcessor 对象 
+XSLTProcessor = function XSLTProcessor(){};
+framevm.toolsFunc.safeProto(XSLTProcessor,"XSLTProcessor");
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "clearParameters", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "clearParameters", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "getParameter", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "getParameter", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "importStylesheet", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "importStylesheet", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "removeParameter", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "removeParameter", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "reset", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "reset", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "setParameter", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "setParameter", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "transformToDocument", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "transformToDocument", arguments)}});
+framevm.toolsFunc.defineProperty(XSLTProcessor.prototype, "transformToFragment", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XSLTProcessor.prototype, "XSLTProcessor", "transformToFragment", arguments)}});

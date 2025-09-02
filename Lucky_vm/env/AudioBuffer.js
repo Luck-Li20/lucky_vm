@@ -1,0 +1,10 @@
+// AudioBuffer 对象 
+AudioBuffer = function AudioBuffer(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'AudioBuffer': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(AudioBuffer,"AudioBuffer");
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "duration", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "duration_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "sampleRate", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "sampleRate_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "numberOfChannels", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "numberOfChannels_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "copyFromChannel", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "copyFromChannel", arguments)}});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "copyToChannel", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "copyToChannel", arguments)}});
+framevm.toolsFunc.defineProperty(AudioBuffer.prototype, "getChannelData", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioBuffer.prototype, "AudioBuffer", "getChannelData", arguments)}});

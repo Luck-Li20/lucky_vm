@@ -1,0 +1,8 @@
+// EncodedAudioChunk 对象 
+EncodedAudioChunk = function EncodedAudioChunk(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'EncodedAudioChunk': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(EncodedAudioChunk,"EncodedAudioChunk");
+framevm.toolsFunc.defineProperty(EncodedAudioChunk.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedAudioChunk.prototype, "EncodedAudioChunk", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedAudioChunk.prototype, "timestamp", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedAudioChunk.prototype, "EncodedAudioChunk", "timestamp_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedAudioChunk.prototype, "byteLength", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedAudioChunk.prototype, "EncodedAudioChunk", "byteLength_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedAudioChunk.prototype, "duration", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, EncodedAudioChunk.prototype, "EncodedAudioChunk", "duration_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(EncodedAudioChunk.prototype, "copyTo", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, EncodedAudioChunk.prototype, "EncodedAudioChunk", "copyTo", arguments)}});

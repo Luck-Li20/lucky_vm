@@ -1,0 +1,12 @@
+// XRFrame 对象 
+XRFrame = function XRFrame(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(XRFrame,"XRFrame");
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "session", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "session_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getPose", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getPose", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getViewerPose", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getViewerPose", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "trackedAnchors", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "trackedAnchors_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "createAnchor", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "createAnchor", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getDepthInformation", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getDepthInformation", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getHitTestResults", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getHitTestResults", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getHitTestResultsForTransientInput", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getHitTestResultsForTransientInput", arguments)}});
+framevm.toolsFunc.defineProperty(XRFrame.prototype, "getLightEstimate", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, XRFrame.prototype, "XRFrame", "getLightEstimate", arguments)}});

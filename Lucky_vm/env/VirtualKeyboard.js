@@ -1,0 +1,9 @@
+// VirtualKeyboard 对象 
+VirtualKeyboard = function VirtualKeyboard(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(VirtualKeyboard,"VirtualKeyboard");
+Object.setPrototypeOf(VirtualKeyboard.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(VirtualKeyboard.prototype, "boundingRect", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "boundingRect_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(VirtualKeyboard.prototype, "overlaysContent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "overlaysContent_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "overlaysContent_set", arguments)}});
+framevm.toolsFunc.defineProperty(VirtualKeyboard.prototype, "ongeometrychange", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "ongeometrychange_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "ongeometrychange_set", arguments)}});
+framevm.toolsFunc.defineProperty(VirtualKeyboard.prototype, "hide", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "hide", arguments)}});
+framevm.toolsFunc.defineProperty(VirtualKeyboard.prototype, "show", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, VirtualKeyboard.prototype, "VirtualKeyboard", "show", arguments)}});

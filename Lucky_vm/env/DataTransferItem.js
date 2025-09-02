@@ -1,0 +1,9 @@
+// DataTransferItem 对象 
+DataTransferItem = function DataTransferItem(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(DataTransferItem,"DataTransferItem");
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "kind", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "kind_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "getAsFile", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "getAsFile", arguments)}});
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "getAsString", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "getAsString", arguments)}});
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "webkitGetAsEntry", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "webkitGetAsEntry", arguments)}});
+framevm.toolsFunc.defineProperty(DataTransferItem.prototype, "getAsFileSystemHandle", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, DataTransferItem.prototype, "DataTransferItem", "getAsFileSystemHandle", arguments)}});

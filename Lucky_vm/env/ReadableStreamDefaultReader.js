@@ -1,0 +1,7 @@
+// ReadableStreamDefaultReader 对象 
+ReadableStreamDefaultReader = function ReadableStreamDefaultReader(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'ReadableStreamDefaultReader': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(ReadableStreamDefaultReader,"ReadableStreamDefaultReader");
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultReader.prototype, "read", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultReader.prototype, "ReadableStreamDefaultReader", "read", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultReader.prototype, "releaseLock", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultReader.prototype, "ReadableStreamDefaultReader", "releaseLock", arguments)}});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultReader.prototype, "closed", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultReader.prototype, "ReadableStreamDefaultReader", "closed_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(ReadableStreamDefaultReader.prototype, "cancel", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, ReadableStreamDefaultReader.prototype, "ReadableStreamDefaultReader", "cancel", arguments)}});

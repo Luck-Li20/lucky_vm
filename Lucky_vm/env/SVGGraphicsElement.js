@@ -1,0 +1,12 @@
+// SVGGraphicsElement 对象 
+SVGGraphicsElement = function SVGGraphicsElement(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGGraphicsElement,"SVGGraphicsElement");
+Object.setPrototypeOf(SVGGraphicsElement.prototype, SVGElement.prototype);
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "transform", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "transform_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "nearestViewportElement", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "nearestViewportElement_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "farthestViewportElement", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "farthestViewportElement_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "requiredExtensions", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "requiredExtensions_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "systemLanguage", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "systemLanguage_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "getBBox", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "getBBox", arguments)}});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "getCTM", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "getCTM", arguments)}});
+framevm.toolsFunc.defineProperty(SVGGraphicsElement.prototype, "getScreenCTM", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGGraphicsElement.prototype, "SVGGraphicsElement", "getScreenCTM", arguments)}});

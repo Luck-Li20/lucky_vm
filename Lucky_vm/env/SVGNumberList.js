@@ -1,0 +1,12 @@
+// SVGNumberList 对象 
+SVGNumberList = function SVGNumberList(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(SVGNumberList,"SVGNumberList");
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "length", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "length_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "numberOfItems", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "numberOfItems_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "appendItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "appendItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "clear", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "clear", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "getItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "getItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "initialize", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "initialize", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "insertItemBefore", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "insertItemBefore", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "removeItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "removeItem", arguments)}});
+framevm.toolsFunc.defineProperty(SVGNumberList.prototype, "replaceItem", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, SVGNumberList.prototype, "SVGNumberList", "replaceItem", arguments)}});

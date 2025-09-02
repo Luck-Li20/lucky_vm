@@ -1,0 +1,21 @@
+// Response 对象 
+Response = function Response(){};
+framevm.toolsFunc.safeProto(Response,"Response");
+framevm.toolsFunc.defineProperty(Response, "error", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response, "Response", "error", arguments)}});
+framevm.toolsFunc.defineProperty(Response, "json", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response, "Response", "json", arguments)}});
+framevm.toolsFunc.defineProperty(Response, "redirect", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response, "Response", "redirect", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "type", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "type_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "url", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "url_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "redirected", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "redirected_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "status", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "status_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "ok", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "ok_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "statusText", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "statusText_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "headers", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "headers_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "body", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "body_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "bodyUsed", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "bodyUsed_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(Response.prototype, "arrayBuffer", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "arrayBuffer", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "blob", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "blob", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "clone", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "clone", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "formData", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "formData", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "json", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "json", arguments)}});
+framevm.toolsFunc.defineProperty(Response.prototype, "text", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, Response.prototype, "Response", "text", arguments)}});

@@ -1,0 +1,10 @@
+// TextMetrics 对象 
+TextMetrics = function TextMetrics(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(TextMetrics,"TextMetrics");
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "width", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "width_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "actualBoundingBoxLeft", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "actualBoundingBoxLeft_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "actualBoundingBoxRight", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "actualBoundingBoxRight_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "fontBoundingBoxAscent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "fontBoundingBoxAscent_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "fontBoundingBoxDescent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "fontBoundingBoxDescent_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "actualBoundingBoxAscent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "actualBoundingBoxAscent_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TextMetrics.prototype, "actualBoundingBoxDescent", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TextMetrics.prototype, "TextMetrics", "actualBoundingBoxDescent_get", arguments)}, set:undefined});

@@ -1,0 +1,7 @@
+// TransformStreamDefaultController 对象 
+TransformStreamDefaultController = function TransformStreamDefaultController(){return framevm.toolsFunc.throwError("TypeError", "Illegal constructor");};
+framevm.toolsFunc.safeProto(TransformStreamDefaultController,"TransformStreamDefaultController");
+framevm.toolsFunc.defineProperty(TransformStreamDefaultController.prototype, "desiredSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, TransformStreamDefaultController.prototype, "TransformStreamDefaultController", "desiredSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(TransformStreamDefaultController.prototype, "enqueue", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TransformStreamDefaultController.prototype, "TransformStreamDefaultController", "enqueue", arguments)}});
+framevm.toolsFunc.defineProperty(TransformStreamDefaultController.prototype, "error", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TransformStreamDefaultController.prototype, "TransformStreamDefaultController", "error", arguments)}});
+framevm.toolsFunc.defineProperty(TransformStreamDefaultController.prototype, "terminate", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, TransformStreamDefaultController.prototype, "TransformStreamDefaultController", "terminate", arguments)}});

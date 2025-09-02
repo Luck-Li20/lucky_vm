@@ -1,0 +1,13 @@
+// AudioEncoder 对象 
+AudioEncoder = function AudioEncoder(){return framevm.toolsFunc.throwError("TypeError", "Failed to construct 'AudioEncoder': 1 argument required, but only 0 present.");};
+framevm.toolsFunc.safeProto(AudioEncoder,"AudioEncoder");
+Object.setPrototypeOf(AudioEncoder.prototype, EventTarget.prototype);
+framevm.toolsFunc.defineProperty(AudioEncoder, "isConfigSupported", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder, "AudioEncoder", "isConfigSupported", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "encodeQueueSize", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "encodeQueueSize_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "state", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "state_get", arguments)}, set:undefined});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "close", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "close", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "configure", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "configure", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "encode", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "encode", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "flush", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "flush", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "reset", {configurable:true, enumerable:true, writable:true, value:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "reset", arguments)}});
+framevm.toolsFunc.defineProperty(AudioEncoder.prototype, "ondequeue", {configurable:true, enumerable:true, get:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "ondequeue_get", arguments)}, set:function (){return framevm.toolsFunc.dispatch(this, AudioEncoder.prototype, "AudioEncoder", "ondequeue_set", arguments)}});
