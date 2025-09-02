@@ -55,7 +55,7 @@ const script = new VMScript(codeTest, "./debugJs.js");//运行脚本文件
 const result = vm.run(script);
 // // // // //输出结果
 console.log("======================================================================================")
-// console.log(codeTest);
+console.log(codeTest);
 console.log("======================================================================================")
 console.log("输出结果:",result);
 // console.log(tools.getNowDate(), `result -->`, result);
