@@ -10,7 +10,6 @@ const env = require(__dirname + "\\config\\env.config.js");
 const name = "test";// 固定时间戳
 //创建虚拟机实例
 const vm = new VM();
-debugger;
 // 全局对象配置
 const configCode = fs.readFileSync(__dirname + "\\config\\config.js");
 //功能插件相关西数
@@ -50,8 +49,9 @@ const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlTh
 // // const env = require(__dirname + "\\config\\env.config.js");
 // // const { createCanvas } = require('canvas');
 // 
-// //创建执行脚本
+//创建执行脚本
 const script = new VMScript(codeTest, "./debugJs.js");//运行脚本文件
+ // debugger;
 const result = vm.run(script);
 // // // // //输出结果
 console.log("=====================================================================================")
