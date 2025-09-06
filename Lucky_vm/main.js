@@ -37,7 +37,7 @@ const globadlThis_=fs.readFileSync("./tools/globalThis.js");
 //
 // // 整合代码
 // // const codeTest = `${configCode}${toolscode}${logCode}${ }${globalvarCode}${timeVar}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
-const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
+const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlThis_}${userVarCode}${proxyobjCode}${debugCode}${asyncCode}`;
 //
 //
 // // const crypto = require('crypto');
@@ -60,6 +60,8 @@ console.log("===================================================================
 console.log("输出结果:",result);
 // console.log(tools.getNowDate(), `result -->`, result);
 console.log("执行完毕！");
+// fs.writeFileSync(`./user/${name}/output.js`, codeTest);
+console.log("执行完成");
 
 
 

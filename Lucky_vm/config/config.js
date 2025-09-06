@@ -13,8 +13,8 @@ framevm={
 // framevm.config.isdebug=true ;
 framevm.config.isdebug=false ;
 // 是否开启代理
-framevm.config.proxy = true;
-// framevm.config.proxy = false;
+// framevm.config.proxy = true;
+framevm.config.proxy = false;
 // 独一无二的属性, 标记是否已代理
 framevm.memory.symbolProxy = Symbol("proxy");
 // 是否开启打印
