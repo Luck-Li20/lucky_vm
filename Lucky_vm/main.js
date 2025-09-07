@@ -7,7 +7,7 @@ const user = require(__dirname + "\\config\\user.config.js");
 const tools = require(__dirname + "\\config\\tools.config");
 const env = require(__dirname + "\\config\\env.config.js");
 
-const name = "test";// 固定时间戳
+const name = "locationTest";
 //创建虚拟机实例
 const vm = new VM();
 // 全局对象配置
@@ -28,16 +28,17 @@ const debugCode = user.getCode(name, "input");
 const asyncCode = user.getCode(name, "async");
 // winodw对象
 const globadlThis_=fs.readFileSync("./tools/globalThis.js");
-// // // 时间戳设置
-// // const timeVar=fs.readFileSync("./tools/timeVar.js");
-// // //输入日志
-// // const logCode = fs.readFileSync("./tools/printLog.js");
-//
+// 时间戳设置
+const globalHook=fs.readFileSync("./tools/globalHook.js");
+//输入日志
+const logCode = fs.readFileSync("./tools/printLog.js");
+
+
 // // const nodeplugin_path=fs.resolve("./nodePlugin/");
 //
 // // 整合代码
-// // const codeTest = `${configCode}${toolscode}${logCode}${ }${globalvarCode}${timeVar}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
-const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlThis_}${userVarCode}${proxyobjCode}${debugCode}${asyncCode}`;
+// // const codeTest = `${configCode}${toolscode}${logCode}${envCode}${globalvarCode}${globalHook}${globadlThis_}${userVarCode}${proxyobjCode}debugger;\r\n${debugCode}${asyncCode}`;
+const codeTest = `${configCode}${toolscode}${logCode}${envCode}${globalvarCode}${globalHook}${globadlThis_}${userVarCode}${proxyobjCode}${debugCode}${asyncCode}`;
 //
 //
 // // const crypto = require('crypto');
@@ -51,15 +52,17 @@ const codeTest = `${configCode}${toolscode}${envCode}${globalvarCode}${globadlTh
 // 
 //创建执行脚本
 const script = new VMScript(codeTest, "./debugJs.js");//运行脚本文件
+vm.setGlobal('sandbox', {
+    fs:fs,
+    _name_:name,
+})
  // debugger;
 const result = vm.run(script);
 // // // // //输出结果
 console.log("=====================================================================================")
-console.log(codeTest);
+// console.log(codeTest);
 console.log("=====================================================================================")
 console.log("输出结果:",result);
-// console.log(tools.getNowDate(), `result -->`, result);
-console.log("执行完毕！");
 // fs.writeFileSync(`./user/${name}/output.js`, codeTest);
 console.log("执行完成");
 

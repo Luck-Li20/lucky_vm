@@ -61,7 +61,6 @@
         framevm.toolsFunc.reNameFunc(hookFunc, funcInfo.funcName);
         return hookFunc;
     }
-    
     // hook 对象的属性，本质是替换属性描述符
     framevm.toolsFunc.hookObj = function hookObj(obj, objName, propName, isDebug){
         // obj :需要hook的对象
@@ -107,8 +106,7 @@
             newDescriptor.set = framevm.toolsFunc.hook(set,funcInfo ,isDebug);
         }
         Object.defineProperty(obj, propName, newDescriptor);
-    }
-    
+    } 
     // hook 原型对象的所有属性
     framevm.toolsFunc.hookProto = function hookProto(proto, isDebug){
         // proto :函数原型
@@ -268,7 +266,6 @@
     };
     // env函数分发器
     framevm.toolsFunc.dispatch = function dispatch(self, obj, objName, funcName, argList, defaultValue){
-        debugger;
         let name = `${objName}_${funcName}`; // EventTarget_addEventListener
         if(Object.getOwnPropertyDescriptor(obj, "constructor") !== undefined){
             if(Object.getOwnPropertyDescriptor(self, "constructor") !== undefined){
